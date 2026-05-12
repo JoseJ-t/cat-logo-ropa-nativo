@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <header class="header">
+ 
+  <header class="header" id="siteHeader">
     <div class="header-inner">
       <a href="#" class="logo">
         <img src="icons/LOGB.svg" alt="Nativo">
@@ -33,7 +33,7 @@
       </nav>
     </div>
   </header>
-
+ 
   <section class="hero">
     <div class="hero-media">
       <picture>
@@ -51,13 +51,13 @@
       <p class="lead">Algodón premium. Corte contemporáneo.<br>Entrega a Domicilio. Pago al recibir.</p>
     </div>
   </section>
-
+ 
   <section class="collection">
     <div class="collection-header">
       <h2>Nuestras Piezas</h2>
     </div>
     <div class="items-grid">
-
+ 
       <article class="item" data-path360="Catalogo/360/camisa-negra/" data-frente="CRMLF-frente.png" data-reverso="CRMLF-reverso.png">
         <div class="item-media">
           <img src="Catalogo/CRMLF-BLACK-SHIRT-CF.webp" alt="Camisa Negra - CRMLF - 100% algodon" loading="lazy">
@@ -67,180 +67,361 @@
           <p class="desc">Boxy fit relajado · 240g · 100% algodón</p>
           <div class="price-action">
             <span class="price">$300</span>
-            <a href="#" class="btn" data-product="Camisa Negra - CRMLF - Negra - $600" data-image="CRMLF-CRDN">Pedir →</a>
+            <a href="#" class="btn"
+               data-product="Camisa Negra - CRMLF - Negra"
+               data-img="Catalogo/CRMLF-BLACK-SHIRT-CF.webp">Pedir →</a>
           </div>
+          <select class="talla-select">
+            <option value="">Elige tu talla</option>
+            <option>S</option><option>M</option><option>L</option><option>XL</option>
+          </select>
+          <button class="add-btn"
+                  data-name="CRMLF - CRDN"
+                  data-price="300"
+                  data-img="Catalogo/CRMLF-BLACK-SHIRT-CF.webp">
+            🛒 Agregar al carrito
+          </button>
         </div>
       </article>
-
+ 
       <article class="item" data-path360="Catalogo/360/clemont-negra/" data-frente="Clemont-frente.png" data-reverso="Clemont-reverso.png">
         <div class="item-media">
-          <img src="Catalogo/Clemont-Negra-CF.webp" alt="Camisa Negra - Clemont - Sol - Angel - Rojo - 100% algodon" loading="lazy">
+          <img src="Catalogo/Clemont-Negra-CF.webp" alt="Camisa Negra - Clemont - Sol - Angel - Rojo" loading="lazy">
         </div>
         <div class="item-info">
           <h3>Clemont Sol Rojo</h3>
           <p class="desc">Boxy fit relajado · 240g · 100% algodón</p>
           <div class="price-action">
             <span class="price">$300</span>
-            <a href="#" class="btn" data-product="Camisa Negra - Clemont - Sol - Angel - Rojo - $600" data-image="Clemont-Sol-Rojo">Pedir →</a>
+            <a href="#" class="btn"
+               data-product="Camisa Negra - Clemont - Sol - Angel - Rojo"
+               data-img="Catalogo/Clemont-Negra-CF.webp">Pedir →</a>
           </div>
+          <select class="talla-select">
+            <option value="">Elige tu talla</option>
+            <option>S</option><option>M</option><option>L</option><option>XL</option>
+          </select>
+          <button class="add-btn"
+                  data-name="Clemont Sol Rojo"
+                  data-price="300"
+                  data-img="Catalogo/Clemont-Negra-CF.webp">
+            🛒 Agregar al carrito
+          </button>
         </div>
       </article>
-
+ 
       <article class="item" data-path360="Catalogo/360/300-noches/" data-frente="300-noches-frente.png" data-reverso="300-noches-reverso.png">
         <div class="item-media">
-          <img src="Catalogo/300-Noches-NT-CF.webp" alt="Camisa Negra con Mariposa, 300 noches Natanael Cano - 100% algodon" loading="lazy">
+          <img src="Catalogo/300-Noches-NT-CF.webp" alt="Camisa Negra - 300 noches Natanael Cano" loading="lazy">
         </div>
         <div class="item-info">
           <h3>300 Noches</h3>
           <p class="desc">Boxy fit relajado · 240g · 100% algodón</p>
           <div class="price-action">
             <span class="price">$250</span>
-            <a href="#" class="btn" data-product="Camisa Negra - 300 noches - Natanael cano - $600" data-image="300-Noches">Pedir →</a>
+            <a href="#" class="btn"
+               data-product="Camisa Negra - 300 noches - Natanael Cano"
+               data-img="Catalogo/300-Noches-NT-CF.webp">Pedir →</a>
           </div>
+          <select class="talla-select">
+            <option value="">Elige tu talla</option>
+            <option>S</option><option>M</option><option>L</option><option>XL</option>
+          </select>
+          <button class="add-btn"
+                  data-name="300 Noches"
+                  data-price="250"
+                  data-img="Catalogo/300-Noches-NT-CF.webp">
+            🛒 Agregar al carrito
+          </button>
         </div>
       </article>
-
+ 
       <article class="item" data-path360="Catalogo/360/Youngla-AOT-CF/" data-frente="Gemini-frente.png" data-reverso="Gemini-reverso.png">
         <div class="item-media">
-          <img src="Catalogo/Youngla-Negra.webp" alt="Camisa Negra - Youngla - Midnight - 100% algodon" loading="lazy">
+          <img src="Catalogo/Youngla-Negra.webp" alt="Camisa Negra - Youngla - Midnight" loading="lazy">
         </div>
         <div class="item-info">
           <h3>Youngla Midnight</h3>
           <p class="desc">Boxy fit relajado · 240g · 100% algodón</p>
           <div class="price-action">
             <span class="price">$300</span>
-            <a href="#" class="btn" data-product="Camisa Negra - Youngla - Midnight - $600" data-image="Youngla-Midnight">Pedir →</a>
+            <a href="#" class="btn"
+               data-product="Camisa Negra - Youngla - Midnight"
+               data-img="Catalogo/Youngla-Negra.webp">Pedir →</a>
           </div>
+          <select class="talla-select">
+            <option value="">Elige tu talla</option>
+            <option>S</option><option>M</option><option>L</option><option>XL</option>
+          </select>
+          <button class="add-btn"
+                  data-name="Youngla Midnight"
+                  data-price="300"
+                  data-img="Catalogo/Youngla-Negra.webp">
+            🛒 Agregar al carrito
+          </button>
         </div>
       </article>
-
+ 
       <article class="item" data-path360="Catalogo/360/youngla-aot/" data-frente="Youngla-AOT-frente.png" data-reverso="Youngla-AOT-reverso.png">
         <div class="item-media">
-          <img src="Catalogo/Youngla-AOT-CF.webp" alt="Camisa Negra - Youngla - Atack on Titan - 100% algodon" loading="lazy">
+          <img src="Catalogo/Youngla-AOT-CF.webp" alt="Camisa Negra - Youngla - Attack on Titan" loading="lazy">
         </div>
         <div class="item-info">
           <h3>Youngla AOT</h3>
           <p class="desc">Boxy fit relajado · 240g · 100% algodón</p>
           <div class="price-action">
             <span class="price">$300</span>
-            <a href="#" class="btn" data-product="Camisa Negra - AOT - $600" data-image="Youngla-AOT">Pedir →</a>
+            <a href="#" class="btn"
+               data-product="Camisa Negra - Youngla - AOT"
+               data-img="Catalogo/Youngla-AOT-CF.webp">Pedir →</a>
           </div>
+          <select class="talla-select">
+            <option value="">Elige tu talla</option>
+            <option>S</option><option>M</option><option>L</option><option>XL</option>
+          </select>
+          <button class="add-btn"
+                  data-name="Youngla AOT"
+                  data-price="300"
+                  data-img="Catalogo/Youngla-AOT-CF.webp">
+            🛒 Agregar al carrito
+          </button>
         </div>
       </article>
-
+ 
       <article class="item" data-path360="Catalogo/360/gemini/" data-frente="-frente.png" data-reverso="-reverso.png">
         <div class="item-media">
-          <img src="Catalogo/EXTSY-MODEL-CF.webp" alt="Camisa Negra - EXTSSY - MODEL - 100% algodon" loading="lazy">
+          <img src="Catalogo/EXTSY-MODEL-CF.webp" alt="Camisa Negra - EXTSSY - MODEL" loading="lazy">
         </div>
         <div class="item-info">
           <h3>EXTSSY MODEL</h3>
           <p class="desc">Boxy fit relajado · 240g · 100% algodón</p>
           <div class="price-action">
             <span class="price">$300</span>
-            <a href="#" class="btn" data-product="Camisa Negra - EXTSSY - Model - $600" data-image="EXTSSY-MODEL">Pedir →</a>
+            <a href="#" class="btn"
+               data-product="Camisa Negra - EXTSSY - Model"
+               data-img="Catalogo/EXTSY-MODEL-CF.webp">Pedir →</a>
           </div>
+          <select class="talla-select">
+            <option value="">Elige tu talla</option>
+            <option>S</option><option>M</option><option>L</option><option>XL</option>
+          </select>
+          <button class="add-btn"
+                  data-name="EXTSSY MODEL"
+                  data-price="300"
+                  data-img="Catalogo/EXTSY-MODEL-CF.webp">
+            🛒 Agregar al carrito
+          </button>
         </div>
       </article>
-
+ 
       <article class="item" data-path360="Catalogo/360/gemini/" data-frente="Gemini-frente.png" data-reverso="Gemini-reverso.png">
         <div class="item-media">
-          <img src="Catalogo/ESTR-AZL-Blanca-CF.webp" alt="Camisa Gris - Estrella - Azul - 100% algodon" loading="lazy">
+          <img src="Catalogo/ESTR-AZL-Blanca-CF.webp" alt="Camisa Blanca - Estrella - Azul" loading="lazy">
         </div>
         <div class="item-info">
           <h3>Blue Star</h3>
           <p class="desc">Boxy fit relajado · 240g · 100% algodón</p>
           <div class="price-action">
             <span class="price">$300</span>
-            <a href="#" class="btn" data-product="Camisa Blanca - Estrella - Azul - $600" data-image="Blue-Star">Pedir →</a>
+            <a href="#" class="btn"
+               data-product="Camisa Blanca - Estrella - Azul"
+               data-img="Catalogo/ESTR-AZL-Blanca-CF.webp">Pedir →</a>
           </div>
+          <select class="talla-select">
+            <option value="">Elige tu talla</option>
+            <option>S</option><option>M</option><option>L</option><option>XL</option>
+          </select>
+          <button class="add-btn"
+                  data-name="Blue Star"
+                  data-price="300"
+                  data-img="Catalogo/ESTR-AZL-Blanca-CF.webp">
+            🛒 Agregar al carrito
+          </button>
         </div>
       </article>
-
+ 
       <article class="item" data-path360="Catalogo/360/gemini/" data-frente="Gemini-frente.png" data-reverso="Gemini-reverso.png">
         <div class="item-media">
-          <img src="Catalogo/Camisa-Blanca-Latin-Mafia-CF.webp" alt="Camisa Gris - Latin - Mafia - 100% algodon" loading="lazy">
+          <img src="Catalogo/Camisa-Blanca-Latin-Mafia-CF.webp" alt="Camisa Blanca - Latin Mafia" loading="lazy">
         </div>
         <div class="item-info">
           <h3>Latin Mafia ltrs</h3>
           <p class="desc">Boxy fit relajado · 240g · 100% algodón</p>
           <div class="price-action">
             <span class="price">$300</span>
-            <a href="#" class="btn" data-product="Camisa Blanca - Latin - Mafia - $600" data-image="Latin-Mafia-ltrs">Pedir →</a>
+            <a href="#" class="btn"
+               data-product="Camisa Blanca - Latin Mafia"
+               data-img="Catalogo/Camisa-Blanca-Latin-Mafia-CF.webp">Pedir →</a>
           </div>
+          <select class="talla-select">
+            <option value="">Elige tu talla</option>
+            <option>S</option><option>M</option><option>L</option><option>XL</option>
+          </select>
+          <button class="add-btn"
+                  data-name="Latin Mafia ltrs"
+                  data-price="300"
+                  data-img="Catalogo/Camisa-Blanca-Latin-Mafia-CF.webp">
+            🛒 Agregar al carrito
+          </button>
         </div>
       </article>
-
+ 
       <article class="item" data-path360="Catalogo/360/gemini/" data-frente="Gemini-frente.png" data-reverso="Gemini-reverso.png">
         <div class="item-media">
-          <img src="Catalogo/CT-Records-CF.webp" alt="Camisa Negra - CT - Records - 100% algodon" loading="lazy">
+          <img src="Catalogo/CT-Records-CF.webp" alt="Camisa Negra - CT Records" loading="lazy">
         </div>
         <div class="item-info">
           <h3>CT Records</h3>
           <p class="desc">Boxy fit relajado · 240g · 100% algodón</p>
           <div class="price-action">
             <span class="price">$300</span>
-            <a href="#" class="btn" data-product="Camisa Negra - CT - Records - $600" data-image="CT-Records">Pedir →</a>
+            <a href="#" class="btn"
+               data-product="Camisa Negra - CT Records"
+               data-img="Catalogo/CT-Records-CF.webp">Pedir →</a>
           </div>
+          <select class="talla-select">
+            <option value="">Elige tu talla</option>
+            <option>S</option><option>M</option><option>L</option><option>XL</option>
+          </select>
+          <button class="add-btn"
+                  data-name="CT Records"
+                  data-price="300"
+                  data-img="Catalogo/CT-Records-CF.webp">
+            🛒 Agregar al carrito
+          </button>
         </div>
       </article>
-
+ 
       <article class="item" data-path360="Catalogo/360/gemini/" data-frente="Gemini-frente.png" data-reverso="Gemini-reverso.png">
         <div class="item-media">
-          <img src="Catalogo/CT-Cupido-CF.webp" alt="Camisa Negra - CT - Cupido - 100% algodon" loading="lazy">
+          <img src="Catalogo/CT-Cupido-CF.webp" alt="Camisa Negra - CT Cupido" loading="lazy">
         </div>
         <div class="item-info">
           <h3>CT Cupido</h3>
           <p class="desc">Boxy fit relajado · 240g · 100% algodón</p>
           <div class="price-action">
             <span class="price">$300</span>
-            <a href="#" class="btn" data-product="Camisa Negra - CT - Cupido - $600" data-image="CT-Cupido">Pedir →</a>
+            <a href="#" class="btn"
+               data-product="Camisa Negra - CT Cupido"
+               data-img="Catalogo/CT-Cupido-CF.webp">Pedir →</a>
           </div>
+          <select class="talla-select">
+            <option value="">Elige tu talla</option>
+            <option>S</option><option>M</option><option>L</option><option>XL</option>
+          </select>
+          <button class="add-btn"
+                  data-name="CT Cupido"
+                  data-price="300"
+                  data-img="Catalogo/CT-Cupido-CF.webp">
+            🛒 Agregar al carrito
+          </button>
         </div>
       </article>
-
+ 
       <article class="item" data-path360="Catalogo/360/gemini/" data-frente="-frente.png" data-reverso="-reverso.png">
         <div class="item-media">
-          <img src="Catalogo/EXODO-Gvt-Dvs-PP-CF.webp" alt="Camisa Negra - EXODO - PP - 100% algodon" loading="lazy">
+          <img src="Catalogo/EXODO-Gvt-Dvs-PP-CF.webp" alt="Camisa Negra - EXODO PP" loading="lazy">
         </div>
         <div class="item-info">
           <h3>EXODO PP</h3>
           <p class="desc">Boxy fit relajado · 240g · 100% algodón</p>
           <div class="price-action">
             <span class="price">$300</span>
-            <a href="#" class="btn" data-product="Camisa Negra - EXODO - PP - $600" data-image="EXODO-PP">Pedir →</a>
+            <a href="#" class="btn"
+               data-product="Camisa Negra - EXODO PP"
+               data-img="Catalogo/EXODO-Gvt-Dvs-PP-CF.webp">Pedir →</a>
           </div>
+          <select class="talla-select">
+            <option value="">Elige tu talla</option>
+            <option>S</option><option>M</option><option>L</option><option>XL</option>
+          </select>
+          <button class="add-btn"
+                  data-name="EXODO PP"
+                  data-price="300"
+                  data-img="Catalogo/EXODO-Gvt-Dvs-PP-CF.webp">
+            🛒 Agregar al carrito
+          </button>
         </div>
       </article>
-
+ 
       <article class="item" data-path360="Catalogo/360/gemini/" data-frente="Gemini-frente.png" data-reverso="Gemini-reverso.png">
         <div class="item-media">
-          <img src="Catalogo/Madona-NT-CF.webp" alt="Camisa Negra - Madona - NT - 100% algodon" loading="lazy">
+          <img src="Catalogo/Madona-NT-CF.webp" alt="Camisa Negra - Madona NT" loading="lazy">
         </div>
         <div class="item-info">
           <h3>MADONA NT</h3>
           <p class="desc">Boxy fit relajado · 240g · 100% algodón</p>
           <div class="price-action">
             <span class="price">$300</span>
-            <a href="#" class="btn" data-product="Camisa Negra - Madona - NT - $600" data-image="Madona-NT">Pedir →</a>
+            <a href="#" class="btn"
+               data-product="Camisa Negra - Madona NT"
+               data-img="Catalogo/Madona-NT-CF.webp">Pedir →</a>
           </div>
+          <select class="talla-select">
+            <option value="">Elige tu talla</option>
+            <option>S</option><option>M</option><option>L</option><option>XL</option>
+          </select>
+          <button class="add-btn"
+                  data-name="MADONA NT"
+                  data-price="300"
+                  data-img="Catalogo/Madona-NT-CF.webp">
+            🛒 Agregar al carrito
+          </button>
         </div>
       </article>
-
-      <!-- Puedes duplicar <article class="item"> para más camisas -->
+ 
     </div>
   </section>
-
+ 
   <footer class="footer">
     <p>Nativo · Orgullosamente de San Juan de los Lagos, Jalisco</p>
     <p>Entregas rápidas en moto · Pago en efectivo al recibir</p>
   </footer>
-
-  <!-- Modal para vista del producto -->
+ 
+  <!-- ══════════ CARRITO ══════════ -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+ 
+  <div class="cart-panel" id="cartPanel">
+    <div class="cart-header">
+      <h2>Tu pedido</h2>
+      <button class="close-cart" id="closeCart" aria-label="Cerrar carrito">×</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <div class="cart-empty" id="cartEmpty">
+        <span>🛍️</span>
+        Tu carrito está vacío.<br>¡Agrega algo chido!
+      </div>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <span class="total-amount" id="cartTotal">$0</span>
+      </div>
+      <button class="whatsapp-cart-btn" id="sendOrderBtn" disabled>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        Pedir por WhatsApp
+      </button>
+    </div>
+  </div>
+ 
+  <!-- FAB -->
+  <button class="fab-cart" id="fabCart" aria-label="Ver carrito">
+    🛒
+    <span class="cart-badge" id="cartBadge">0</span>
+  </button>
+ 
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+ 
+  <!-- Modal 360° -->
   <div id="product-modal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
       <div class="modal-media">
-        <img id="360-image" src="" alt="Producto 360°" style="width: 100%; height: 400px; object-fit: contain; background: transparent;">
+        <img id="360-image" src="" alt="Producto 360°"
+             style="width:100%;height:400px;object-fit:contain;background:transparent;">
       </div>
       <div class="modal-info">
         <h3 id="modal-title"></h3>
@@ -250,127 +431,229 @@
       </div>
     </div>
   </div>
-
+ 
   <script>
-      const phone = "523951024699";
-      
-      // Lógica para el modal (360 grados)
-      document.querySelectorAll('.item').forEach(item => {
-          item.addEventListener('click', e => {
-              e.preventDefault();
-              const path360 = item.dataset.path360;
-              const title = item.querySelector('h3').textContent;
-              const desc = item.querySelector('.desc').textContent;
-              const price = item.querySelector('.price').textContent;
-              const orderBtn = item.querySelector('.btn');
-              const productData = orderBtn.dataset.product;
-              const imageData = orderBtn.dataset.image;
-              
-              document.getElementById('modal-title').textContent = title;
-              document.getElementById('modal-desc').textContent = desc;
-              document.getElementById('modal-price').textContent = price;
-              document.getElementById('modal-order-btn').dataset.product = productData;
-              document.getElementById('modal-order-btn').dataset.image = imageData;
-              
-              const imgElement = document.getElementById('360-image');
-              const frenteSrc = item.dataset.frente;
-              const reversoSrc = item.dataset.reverso;
-              let currentFrame = 1;
-              let isDragging = false;
-              let startX = 0;
-              let hasSwitched = false;
-              
-              const updateImage = () => {
-                  // Aquí se asegura que se cargue la imagen correcta
-                  imgElement.src = currentFrame === 1 ? `${path360}${frenteSrc}` : `${path360}${reversoSrc}`;
-              };
-              
-              // Eventos para girar la imagen (click y arrastre)
-              imgElement.addEventListener('click', (e) => {
-                  if (!isDragging) {
-                      currentFrame = currentFrame === 1 ? 2 : 1;
-                      updateImage();
-                  }
-              });
-              
-              // (El resto de tus eventos de mouse y touch se mantienen igual)
-              imgElement.addEventListener('mousedown', (e) => {
-                  isDragging = true; startX = e.clientX; hasSwitched = false;
-              });
-              imgElement.addEventListener('mousemove', (e) => {
-                  if (!isDragging || hasSwitched) return;
-                  const deltaX = e.clientX - startX;
-                  const sensitivity = 150;
-                  if (Math.abs(deltaX) > sensitivity) {
-                      currentFrame = currentFrame === 1 ? 2 : 1;
-                      updateImage();
-                      hasSwitched = true;
-                  }
-              });
-              imgElement.addEventListener('mouseup', () => isDragging = false);
-              imgElement.addEventListener('touchstart', (e) => {
-                  isDragging = true; startX = e.touches[0].clientX; hasSwitched = false;
-              });
-              imgElement.addEventListener('touchmove', (e) => {
-                  if (!isDragging || hasSwitched) return;
-                  const deltaX = e.touches[0].clientX - startX;
-                  const sensitivity = 150;
-                  if (Math.abs(deltaX) > sensitivity) {
-                      currentFrame = currentFrame === 1 ? 2 : 1;
-                      updateImage();
-                      hasSwitched = true;
-                  }
-              });
-              imgElement.addEventListener('touchend', () => isDragging = false);
-              
-              updateImage();
-              document.getElementById('product-modal').style.display = 'block';
-          });
+    const PHONE = "523951024699";
+    const BASE  = "https://josej-t.github.io/cat-logo-ropa-nativo/";
+ 
+    /* ─── Header scroll ─── */
+    const siteHeader = document.getElementById('siteHeader');
+    window.addEventListener('scroll', () => {
+      siteHeader.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+ 
+    /* ═══════════════════════════════════
+       CARRITO
+    ═══════════════════════════════════ */
+    let cart = [];
+ 
+    const cartPanel    = document.getElementById('cartPanel');
+    const cartOverlay  = document.getElementById('cartOverlay');
+    const cartItemsEl  = document.getElementById('cartItems');
+    const cartEmptyEl  = document.getElementById('cartEmpty');
+    const cartTotalEl  = document.getElementById('cartTotal');
+    const cartBadgeEl  = document.getElementById('cartBadge');
+    const sendOrderBtn = document.getElementById('sendOrderBtn');
+    const toastEl      = document.getElementById('toast');
+ 
+    function openCart()  { cartPanel.classList.add('open');  cartOverlay.classList.add('open'); }
+    function closeCart() { cartPanel.classList.remove('open'); cartOverlay.classList.remove('open'); }
+ 
+    document.getElementById('fabCart').addEventListener('click', openCart);
+    document.getElementById('closeCart').addEventListener('click', closeCart);
+    cartOverlay.addEventListener('click', closeCart);
+ 
+    let toastTimer;
+    function showToast(msg) {
+      clearTimeout(toastTimer);
+      toastEl.textContent = msg;
+      toastEl.classList.add('show');
+      toastTimer = setTimeout(() => toastEl.classList.remove('show'), 2400);
+    }
+ 
+    function renderCart() {
+      const total = cart.reduce((s, i) => s + i.price * i.qty, 0);
+      const count = cart.reduce((s, i) => s + i.qty, 0);
+ 
+      cartBadgeEl.textContent = count;
+      cartBadgeEl.classList.toggle('show', count > 0);
+      cartTotalEl.textContent = '$' + total.toLocaleString('es-MX');
+      sendOrderBtn.disabled   = cart.length === 0;
+ 
+      /* limpiar items anteriores */
+      Array.from(cartItemsEl.children).forEach(c => {
+        if (c !== cartEmptyEl) c.remove();
       });
-    
-      // Cerrar modal
-      document.querySelector('.close').addEventListener('click', () => {
-          document.getElementById('product-modal').style.display = 'none';
+ 
+      if (cart.length === 0) {
+        cartEmptyEl.style.display = 'block';
+        return;
+      }
+      cartEmptyEl.style.display = 'none';
+ 
+      cart.forEach((item, idx) => {
+        const div = document.createElement('div');
+        div.className = 'cart-item';
+        div.innerHTML = `
+          <img src="${item.img}" alt="${item.name}"
+               onerror="this.style.background='#1a1a1a';this.style.minWidth='66px'">
+          <div class="cart-item-body">
+            <h4>${item.name}</h4>
+            <div class="item-talla">Talla · ${item.talla}</div>
+            <div class="item-price">$${(item.price * item.qty).toLocaleString('es-MX')}</div>
+            <div class="qty-row">
+              <button class="qty-btn" data-idx="${idx}" data-action="minus">−</button>
+              <span class="qty-val">${item.qty}</span>
+              <button class="qty-btn" data-idx="${idx}" data-action="plus">+</button>
+            </div>
+          </div>
+          <button class="remove-item" data-idx="${idx}" aria-label="Eliminar">✕</button>
+        `;
+        cartItemsEl.appendChild(div);
       });
-      window.addEventListener('click', e => {
-          if (e.target === document.getElementById('product-modal')) {
-              document.getElementById('product-modal').style.display = 'none';
-          }
+    }
+ 
+    /* delegación de clicks en el panel */
+    cartItemsEl.addEventListener('click', e => {
+      const qb = e.target.closest('.qty-btn');
+      const rb = e.target.closest('.remove-item');
+      if (qb) {
+        const idx = +qb.dataset.idx;
+        if (qb.dataset.action === 'plus') cart[idx].qty++;
+        else {
+          cart[idx].qty--;
+          if (cart[idx].qty <= 0) cart.splice(idx, 1);
+        }
+        renderCart();
+      }
+      if (rb) {
+        cart.splice(+rb.dataset.idx, 1);
+        renderCart();
+      }
+    });
+ 
+    /* botones "Agregar al carrito" */
+    document.querySelectorAll('.add-btn').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        const article = btn.closest('.item');
+        const select  = article.querySelector('.talla-select');
+        const talla   = select.value;
+ 
+        if (!talla) {
+          select.style.borderColor = '#e63946';
+          setTimeout(() => select.style.borderColor = '', 1600);
+          showToast('⚠️ Elige una talla primero');
+          return;
+        }
+ 
+        const name  = btn.dataset.name;
+        const price = parseInt(btn.dataset.price);
+        const img   = btn.dataset.img;
+        const key   = name + '|' + talla;
+        const found = cart.find(i => i.key === key);
+ 
+        if (found) found.qty++;
+        else cart.push({ key, name, talla, price, img, qty: 1 });
+ 
+        renderCart();
+        showToast('✅ ' + name + ' talla ' + talla);
+ 
+        btn.classList.add('added');
+        btn.textContent = '✓ Agregado';
+        setTimeout(() => {
+          btn.classList.remove('added');
+          btn.textContent = '🛒 Agregar al carrito';
+          select.value = '';
+        }, 1800);
       });
-    
-      // --- AQUÍ ESTÁ LA PARTE IMPORTANTE PARA WHATSAPP ---
-      document.querySelectorAll('.btn').forEach(el => {
-          el.addEventListener('click', e => {
-              e.stopPropagation();
-              e.preventDefault();
-              
-              const nombre = el.dataset.product || "Producto Nativo";
-              const base = "https://josej-t.github.io/cat-logo-ropa-nativo/";
-              
-              // 1. Buscamos la imagen principal del item
-              const itemPrincipal = el.closest('.item');
-              const imgElement = itemPrincipal.querySelector('img');
-              
-              // 2. Obtenemos la ruta (ej: "img/camisa.jpg")
-              let rutaImagen = imgElement.getAttribute('src');
-              
-              // 3. Construimos el link completo
-              // Nota: Si tu ruta ya empieza con "/", no necesitas concatenar con base, 
-              // pero si es relativa (ej: img/camisa.jpg), sí necesitas la base.
-              let fotoLink = "";
-              if (rutaImagen.startsWith('http')) {
-                  fotoLink = rutaImagen; // Si ya es un link completo, lo usamos tal cual
-              } else {
-                  fotoLink = base + rutaImagen;
-              }
-              
-              // 4. Creamos el mensaje (CORREGIDO: Se agregaron las comillas invertidas `)
-              const mensaje = `¡Hola! 👋\n\nMe interesa este modelo:\n*${nombre}*\n\nReferencia de la pieza:\n${fotoLink}\n\n¿Tienen tallas disponibles? ✨\n\n *¿Cuándo podrían entregármelo en mi domicilio?*🛵`;
-              
-              // 5. Abrimos WhatsApp
-              window.open(`https://wa.me/${phone}?text=${encodeURIComponent(mensaje)}`, '_blank');
-          });
+    });
+ 
+    /* enviar pedido completo por WhatsApp */
+    sendOrderBtn.addEventListener('click', () => {
+      if (!cart.length) return;
+      const lines = cart.map(i =>
+        `• ${i.name} (talla ${i.talla}) ×${i.qty} — $${(i.price * i.qty).toLocaleString('es-MX')}`
+      ).join('\n');
+      const total = cart.reduce((s, i) => s + i.price * i.qty, 0);
+      const msg = `¡Hola! 👋 Quiero hacer un pedido:\n\n${lines}\n\n*Total: $${total.toLocaleString('es-MX')}*\n\n¿Cuándo me lo pueden entregar a domicilio? 🛵`;
+      window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`, '_blank');
+    });
+ 
+    /* ═══════════════════════════════════
+       MODAL 360°
+    ═══════════════════════════════════ */
+    document.querySelectorAll('.item').forEach(item => {
+      item.addEventListener('click', e => {
+        /* ignorar clicks en controles interactivos */
+        if (e.target.closest('.add-btn, .talla-select, .btn')) return;
+        e.preventDefault();
+ 
+        const path360    = item.dataset.path360;
+        const title      = item.querySelector('h3').textContent;
+        const desc       = item.querySelector('.desc').textContent;
+        const price      = item.querySelector('.price').textContent;
+        const orderBtn   = item.querySelector('.btn');
+ 
+        document.getElementById('modal-title').textContent = title;
+        document.getElementById('modal-desc').textContent  = desc;
+        document.getElementById('modal-price').textContent = price;
+        document.getElementById('modal-order-btn').dataset.product = orderBtn.dataset.product;
+        document.getElementById('modal-order-btn').dataset.img     = orderBtn.dataset.img;
+ 
+        const imgEl      = document.getElementById('360-image');
+        const frenteSrc  = item.dataset.frente;
+        const reversoSrc = item.dataset.reverso;
+        let frame        = 1;
+        let dragging     = false;
+        let startX       = 0;
+        let switched     = false;
+ 
+        const updateImg = () => {
+          imgEl.src = frame === 1 ? `${path360}${frenteSrc}` : `${path360}${reversoSrc}`;
+        };
+ 
+        imgEl.onclick      = () => { if (!dragging) { frame = frame === 1 ? 2 : 1; updateImg(); } };
+        imgEl.onmousedown  = e => { dragging = true; startX = e.clientX; switched = false; };
+        imgEl.onmousemove  = e => {
+          if (!dragging || switched) return;
+          if (Math.abs(e.clientX - startX) > 150) { frame = frame === 1 ? 2 : 1; updateImg(); switched = true; }
+        };
+        imgEl.onmouseup    = () => dragging = false;
+        imgEl.ontouchstart = e => { dragging = true; startX = e.touches[0].clientX; switched = false; };
+        imgEl.ontouchmove  = e => {
+          if (!dragging || switched) return;
+          if (Math.abs(e.touches[0].clientX - startX) > 150) { frame = frame === 1 ? 2 : 1; updateImg(); switched = true; }
+        };
+        imgEl.ontouchend   = () => dragging = false;
+ 
+        updateImg();
+        document.getElementById('product-modal').style.display = 'block';
       });
+    });
+ 
+    document.querySelector('.close').addEventListener('click', () => {
+      document.getElementById('product-modal').style.display = 'none';
+    });
+    window.addEventListener('click', e => {
+      if (e.target === document.getElementById('product-modal'))
+        document.getElementById('product-modal').style.display = 'none';
+    });
+ 
+    /* botones "Pedir →" individuales */
+    document.querySelectorAll('.btn').forEach(el => {
+      el.addEventListener('click', e => {
+        e.stopPropagation();
+        e.preventDefault();
+        const nombre   = el.dataset.product || "Producto Nativo";
+        let rutaImg    = el.dataset.img || el.closest('.item').querySelector('img').getAttribute('src');
+        let fotoLink   = rutaImg.startsWith('http') ? rutaImg : BASE + rutaImg;
+        const mensaje  = `¡Hola! 👋\n\nMe interesa este modelo:\n*${nombre}*\n\nReferencia de la pieza:\n${fotoLink}\n\n¿Tienen tallas disponibles? ✨\n\n*¿Cuándo podrían entregármelo en mi domicilio?* 🛵`;
+        window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent(mensaje)}`, '_blank');
+      });
+    });
+ 
+    renderCart();
   </script>
 </body>
 </html>
